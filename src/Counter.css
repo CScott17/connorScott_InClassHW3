@@ -1,0 +1,49 @@
+body {
+  background-color: aquamarine;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.count {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 3px solid rgb(52, 181, 213);
+  border-radius: 6px;
+  background-color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin: 10px;
+  padding: 20px;
+  border: 3px solid rgb(52, 181, 213);
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+}
+
+button {
+  margin: 0 10px;
+  padding: 15px 30px;
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: lightblue;
+}
